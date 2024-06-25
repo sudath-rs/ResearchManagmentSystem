@@ -1,0 +1,46 @@
+
+*{
+    /*this will overide evry thing*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+
+.navbar{
+    background: rgb(8, 8, 8); 
+    font-family:'Times New Roman', Times, serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+
+
+.logoimg img{
+    height: 65px;
+    width: 65px;
+    padding: 10px;
+}
+
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; font-size: 16px;  margin-right: 25px;
+}
+
+.logo 
+{
+    margin-right: auto;
+
+}
+
+.logo h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
